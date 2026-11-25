@@ -26,7 +26,7 @@ HERE = Path(__file__).resolve().parent
 FIG = HERE / "figures"
 FIG.mkdir(exist_ok=True)
 
-# The MaDSys PowerPoint theme (template.pptx): accent1 crimson, dk2 navy, accent2 burnt orange,
+# The MaDSys PowerPoint theme (template.potx): accent1 crimson, dk2 navy, accent2 burnt orange,
 # accent3 green, accent5 brown, accent6 grey, the footer's slate, and the slide background.
 MS = {"crimson": "#A51C30", "navy": "#0E2841", "orange": "#B04E12", "green": "#196B24",
       "brown": "#8F3E0E", "grey": "#595959", "slate": "#6B777D", "mauve": "#96607D"}

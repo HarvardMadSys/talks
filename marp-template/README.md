@@ -1,6 +1,6 @@
 # MaDSys Marp slide template
 
-A [Marp](https://marp.app) version of the MaDSys PowerPoint template (`template.pptx`) with [additional utilities](#macros) for authoring slides, including LaTeX-style definitions, findings, questions and footnotes, plus booktabs-style tables. The theme is inline in the front
+A [Marp](https://marp.app) version of the MaDSys PowerPoint template (`template.potx`) with [additional utilities](#macros) for authoring slides, including LaTeX-style definitions, findings, questions and footnotes, plus booktabs-style tables. The theme is inline in the front
 matter of `deck.md`, so a deck needs no settings and no theme file.
 
 Maintainer of the Marp template: [Marthenn](https://github.com/Marthenn) · [mmarthen@g.harvard.edu](mailto:mmarthen@g.harvard.edu).
@@ -8,6 +8,7 @@ Maintainer of the Marp template: [Marthenn](https://github.com/Marthenn) · [mma
 | file | what it is |
 | --- | --- |
 | `deck.md` | the main slide deck |
+| `deck.pdf` | a snapshot export of `deck.md` for preview; it is not rebuilt automatically, so re-export it (see [Exporting](#exporting)) after you change `deck.md` |
 | `make_figures.py` | uv script for generating figures |
 | `figures/` | Assets used by the slide |
 
@@ -42,7 +43,7 @@ format except HTML.
 - **From a script, CI or an agent**, add `--no-stdin`: without a terminal, Marp waits for Markdown on
   standard input and never finishes.
 - **PowerPoint** slides are images of the rendered slides, so the text cannot be edited. To give
-  someone an editable deck, use the original `template.pptx`.
+  someone an editable deck, use the original `template.potx`.
 - **HTML** loads the figures from `figures/`, so keep the two together when sharing it.
 - **PNG** writes `deck.001.png`, `deck.002.png`, … next to `deck.md`.
 - Add `--pdf-notes` to put presenter notes (HTML comments that are not directives) in the PDF.

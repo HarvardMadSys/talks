@@ -7,7 +7,7 @@ title: Your awesome title
 description: One-sentence description of the talk
 footer: "**Harvard MaDSys** [madsys.seas.harvard.edu](https://madsys.seas.harvard.edu/)"
 style: |
-  /* MaDSys slide theme, measured from the MaDSys PowerPoint template (template.pptx, 13.33 × 7.5 in):
+  /* MaDSys slide theme, measured from the MaDSys PowerPoint template (template.potx, 13.33 × 7.5 in):
      1 in = 96 px and 1 pt = 1.333 px at Marp's 1280 × 720.
      Fonts: Aptos Display (titles) and Aptos (text), as in the template; install both, or the deck
      falls back to Helvetica Neue / Arial. Colours: the template's theme (accent1 crimson #A51C30,
